@@ -120,3 +120,12 @@
  .mobile-copy .btn{padding:11px 12px;margin:5px 3px 0}
 }
 @media(prefers-reduced-motion:reduce){.mobile-art{animation:none!important}}
+
+/* V3.4: mobile-only composition refinement; no desktop changes. */
+@media(max-width:850px){
+ .mobile-art{
+   background-image:linear-gradient(to bottom,transparent 68%,#50055d 100%),url('ciruela-mobile-studio.jpg');
+   background-size:100% 100%,cover;
+   background-position:center,center 45%;
+ }
+}
