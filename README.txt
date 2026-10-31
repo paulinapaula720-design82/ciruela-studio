@@ -1,7 +1,10 @@
-CIRUELA STUDIO V2
+CIRUELA STUDIO V3
 
-Upload index.html, styles.css, script.js and ciruela-design.png to the ROOT of your GitHub repository, replacing the existing files.
+Upload all files to the root of your existing GitHub Pages repository, replacing matching files.
+Files: index.html, styles.css, script.js, ciruela-design.png, plum-presenter.png, plum-portrait.png.
 
-The original top hero remains unchanged; the lower sections have a colorful redesign. WhatsApp: +34 625 032 815.
-
-Note: desktop hero is an image and its baked-in Spanish text will not change with the language switch.
+The original top artwork and the six-service section are retained from V2.
+The mascot pictures in new sections are CROPS OF THE SAME ORIGINAL HERO ARTWORK, not newly generated different characters.
+WhatsApp: +34 625 032 815.
+ES/EN switches text in HTML sections. Text baked into the original desktop hero image remains Spanish.
+Portfolio link jumps to the contact/creative work area until real samples are added.
