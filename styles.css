@@ -20,3 +20,24 @@
 #ideas.v3-showcase{background:radial-gradient(circle at 80% 10%,#a42f9d 0,transparent 45%),linear-gradient(135deg,#46004f,#790d7d 65%,#5a0468);color:#fff}
 #proceso.v3-process{background:radial-gradient(circle at 10% 25%,#ffd3ee,transparent 28%),radial-gradient(circle at 90% 20%,#f8ffa6,transparent 25%),#fff7f4;color:#4a004e}
 #contacto.v3-contact{background:radial-gradient(circle at 85% 20%,#a02d9b,transparent 45%),linear-gradient(120deg,#4d0056,#800e80);color:white}
+
+/* V3.1 — compact mobile hero: preserve desktop, show only original mascot */
+@media (max-width:850px){
+ .mobile-header{padding:10px 14px;min-height:72px;gap:8px}
+ .brand{min-width:0;gap:7px}.brand strong{font-size:clamp(19px,5vw,27px);letter-spacing:-.045em}.brand small{font-size:8px;line-height:1.2}
+ .plum{font-size:36px}.plum i{left:16px;top:-5px;font-size:15px}
+ .langs{flex-shrink:0}.langs button{padding:7px 9px}
+ .mobile-art{height:215px;background-image:url('plum-portrait.png');background-size:auto 100%;background-position:center center;background-repeat:no-repeat;mask-image:none;-webkit-mask-image:none;background-color:transparent}
+ .mobile-copy{margin-top:0;padding:12px 20px 30px;text-align:center}
+ .mobile-copy h1{font-size:clamp(32px,7.8vw,46px);letter-spacing:-.045em;line-height:1.05;margin:10px auto 12px;max-width:580px}
+ .mobile-copy p{font-size:14px;line-height:1.4;margin:0 auto 12px;max-width:420px}
+ .mobile-copy .btn{font-size:13px;padding:12px 16px;margin:8px 4px 0}
+ .eyebrow{font-size:11px}
+}
+@media(max-width:540px){
+ .mobile-art{height:190px;background-size:auto 100%;background-position:center}
+ .mobile-copy{padding:10px 15px 25px}
+ .mobile-copy h1{font-size:clamp(29px,8.3vw,39px)}
+ .mobile-copy .btn{display:inline-flex;max-width:100%;font-size:12px;padding:12px 15px}
+ .whatsapp{width:52px;height:52px}.whatsapp svg{width:30px;height:30px}
+}
