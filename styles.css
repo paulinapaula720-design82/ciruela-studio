@@ -129,3 +129,16 @@
    background-position:center,center 45%;
  }
 }
+
+/* V3.5 mobile: original mascot and office props, recomposed without embedded headline fragments. */
+@media(max-width:850px){
+ .mobile-hero{background:linear-gradient(180deg,#54105e 0%,#50055d 63%,#7a1883 100%)}
+ .mobile-art{height:clamp(265px,68vw,450px);background-image:url('ciruela-mobile-studio-v35.jpg');background-size:cover;background-position:center center;background-repeat:no-repeat;mask-image:none;-webkit-mask-image:none;filter:none;animation:none!important}
+ .mobile-copy{margin-top:-5px;position:relative;z-index:1}
+ .whatsapp:before{display:none!important;animation:none!important}
+}
+@media(max-width:540px){
+ .mobile-art{height:clamp(275px,78vw,360px);background-position:center center}
+ .mobile-copy{padding-bottom:25px}
+ .mobile-copy .btn{white-space:normal}
+}
