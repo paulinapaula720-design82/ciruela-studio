@@ -142,3 +142,28 @@
  .mobile-copy{padding-bottom:25px}
  .mobile-copy .btn{white-space:normal}
 }
+
+/* Ciruela Studio V3.6 — approved mobile office artwork. Desktop unchanged. */
+@media (max-width:850px) {
+  .mobile-hero { background:linear-gradient(180deg,#560666 0%,#681075 100%); overflow:hidden; }
+  .mobile-art {
+    display:block; width:100%; height:auto; aspect-ratio:941 / 580;
+    background-image:url('ciruela-mobile-approved.jpg');
+    background-size:100% 100%; background-position:center center;
+    background-repeat:no-repeat;
+    mask-image:none; -webkit-mask-image:none;
+    filter:none; transform:none; animation:none!important;
+  }
+  .mobile-copy { margin-top:0; padding:10px 16px 30px; text-align:center; }
+  .mobile-copy h1 { font-size:clamp(29px,7.15vw,48px); line-height:1.08; }
+  .mobile-copy p { max-width:540px; }
+  .mobile-copy .btn { border-radius:50px; }
+  .whatsapp:before { display:none!important; }
+  .whatsapp:hover:before,.whatsapp:focus-visible:before { display:block!important; }
+}
+@media (max-width:540px) {
+  .mobile-art { height:auto; aspect-ratio:941 / 580; background-position:center; }
+  .mobile-copy { padding:9px 12px 27px; }
+  .mobile-copy h1 { font-size:clamp(28px,7.2vw,38px); }
+  .mobile-copy .btn { font-size:clamp(11px,3vw,13px); padding:12px 13px; margin:5px 3px 0; }
+}
