@@ -92,3 +92,31 @@
  @keyframes ciruela-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
  @keyframes ciruela-greet{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
 }
+
+
+/* V3.3: mobile studio scene using the unaltered approved desktop artwork. */
+@media (max-width:850px){
+ .mobile-hero{background:linear-gradient(180deg,#42004d 0%,#50055d 58%,#7a1883 100%);overflow:hidden}
+ .mobile-art{
+  height:clamp(250px,67vw,420px);
+  background-image:linear-gradient(to bottom,rgba(64,0,73,0) 69%,#50055d 100%),url('ciruela-mobile-studio.jpg');
+  background-size:100% 100%,cover;
+  background-position:center,center 48%;
+  background-repeat:no-repeat;
+  mask-image:none;-webkit-mask-image:none;
+  filter:none;animation:none!important;
+ }
+ .mobile-copy{margin-top:-5px;padding:0 16px 28px;position:relative;z-index:1}
+ .mobile-copy h1{font-size:clamp(29px,7.2vw,44px);line-height:1.06}
+ .mobile-copy .btn{font-size:clamp(11px,2.8vw,14px)}
+ .whatsapp:before{display:none!important;animation:none!important}
+ .whatsapp:focus-visible:before,.whatsapp:hover:before{display:block!important}
+}
+@media(max-width:540px){
+ .mobile-art{height:clamp(245px,70vw,315px);background-position:center,center 46%}
+ .mobile-copy{padding:0 13px 24px}
+ .mobile-copy h1{font-size:clamp(28px,7.1vw,36px)}
+ .mobile-copy p{margin-bottom:9px}
+ .mobile-copy .btn{padding:11px 12px;margin:5px 3px 0}
+}
+@media(prefers-reduced-motion:reduce){.mobile-art{animation:none!important}}
